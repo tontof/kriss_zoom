@@ -92,6 +92,6 @@ convert /tmp/{01..50}.png -resize 150x100 lenna.gif
 <img src="https://github.com/tontof/kriss_zoom/raw/master/lenna.gif">
 * Paris example with pan and zoom :
 ```
-blender -b -P kriss_zoom.py -- paris.jpg -flz 75 -tlz 50 -flx right -tlx left -r 320x180 -o paris.mp4
+blender -b -P kriss_zoom.py -- paris.jpg -flz 75 -tlz 50 -flx right -tlx left -r 320x180 -f OGG -ff THEORA -o paris.ogv
 ```
-<img src="https://github.com/tontof/kriss_zoom/raw/master/paris.gif">
+<video src="https://github.com/tontof/kriss_zoom/raw/master/paris.ogv"></video>
