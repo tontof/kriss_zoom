@@ -94,4 +94,4 @@ convert /tmp/{01..50}.png -resize 150x100 lenna.gif
 ```
 blender -b -P kriss_zoom.py -- paris.jpg -flz 75 -tlz 50 -flx right -tlx left -r 320x180 -f OGG -ff THEORA -o paris.ogv
 ```
-<video src="https://github.com/tontof/kriss_zoom/raw/master/paris.ogv"></video>
+<img src="https://github.com/tontof/kriss_zoom/raw/master/paris.gif">
